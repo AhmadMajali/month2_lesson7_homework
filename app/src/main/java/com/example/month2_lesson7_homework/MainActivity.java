@@ -38,14 +38,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
-
-
-
-
-
-
-
     public void onNumberClick(View view) {
         switch (view.getId()){
             case R.id.one:
