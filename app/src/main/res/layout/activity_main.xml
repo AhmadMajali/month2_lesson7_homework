@@ -13,6 +13,20 @@
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
         app:layout_constraintTop_toTopOf="parent">
 
+        <Button
+
+            android:id="@+id/res_btn"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="Click here   :)"
+            android:textAllCaps="false"
+            style="@style/nums"
+            android:background="@drawable/corners_one"
+            android:onClick="onOperationClick"
+            />
+
         <TextView
             android:id="@+id/result"
             android:ellipsize="end"
@@ -40,7 +54,7 @@
 
         <LinearLayout
             android:id="@+id/linearLayout"
-            android:layout_width="320dp"
+            android:layout_width="300dp"
             android:layout_height="410dp"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -255,7 +269,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="89dp"
+            android:layout_width="match_parent"
             android:layout_height="410dp"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -273,7 +287,8 @@
                 android:paddingTop="13dp"
                 android:text="*"
                 android:textAllCaps="false"
-                android:textSize="34sp" />
+                android:textSize="34sp"
+                android:layout_marginLeft="20dp"/>
 
             <Button
                 android:onClick="onOperationClick"
@@ -286,7 +301,8 @@
                 android:paddingTop="8dp"
                 android:text="-"
                 android:textAllCaps="false"
-                android:textSize="34sp" />
+                android:textSize="34sp"
+                android:layout_marginLeft="20dp"/>
 
             <Button
                 android:onClick="onOperationClick"
@@ -299,7 +315,8 @@
                 android:paddingTop="10dp"
                 android:text="+"
                 android:textAllCaps="false"
-                android:textSize="34sp" />
+                android:textSize="34sp"
+                android:layout_marginLeft="20dp"/>
 
             <Button
                 android:onClick="onOperationClick"
@@ -312,7 +329,8 @@
                 android:paddingTop="10dp"
                 android:text="="
                 android:textAllCaps="false"
-                android:textSize="34sp" />
+                android:textSize="34sp"
+                android:layout_marginLeft="20dp"/>
 
 
         </LinearLayout>
