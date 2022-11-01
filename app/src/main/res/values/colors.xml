@@ -13,5 +13,7 @@
     <color name="gray_two">#303136</color>
     <color name="blue_num">#29A8FF</color>
     <color name="gray_in">#A5A5A5</color>
+    <color name="red">#FF0000</color>
+
 
 </resources>
